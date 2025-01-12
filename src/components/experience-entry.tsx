@@ -30,10 +30,12 @@ export function ExperienceEntry({ experience }: { experience: Experience }) {
             Manager: {experience.manager}
           </p>
         )}
-        {experience.description && (
-          <p className="text-sm text-zinc-600 leading-relaxed mt-2">
-            {experience.description}
-          </p>
+        {experience.description && Array.isArray(experience.description) && (
+          <div className="text-sm text-zinc-600 leading-relaxed mt-2">
+            {experience.description.map((line: string, index: number) => (
+              <p key={index}>{line}</p>
+            ))}
+          </div>
         )}
       </div>
     </div>
