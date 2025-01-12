@@ -26,7 +26,7 @@ export const aboutMe: AboutMe = {
   title: "Ph.D. Candidate",
   institution: "IMT Mines Albi",
   description:
-    "I'm a 1st year <a href='https://www.imt-mines-albi.fr/'>PhD candidate</a> working robust and adaptive Deep Multimodal Fusion",
+    "I'm a 1st year <a href='https://www.imt-mines-albi.fr/'>PhD candidate</a> working on robust and adaptive Deep Multimodal Fusion",
   email: "sebastien.grand@mines-albi.fr",
   imageUrl: photo,
   githubUsername: "SebastienGrand98",
