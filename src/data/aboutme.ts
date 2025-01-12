@@ -6,7 +6,7 @@ export interface AboutMe {
   name: string;
   title: string;
   institution: string;
-  description: string;
+  description: string[];
   email: string;
   imageUrl?: string | StaticImageData;
   blogUrl?: string;
@@ -25,16 +25,16 @@ export const aboutMe: AboutMe = {
   name: "Sebastien Grand",
   title: "Ph.D. Candidate",
   institution: "IMT Mines Albi",
-  description:
-    "I'm a 1st year <a href='https://www.imt-mines-albi.fr/'>PhD candidate</a> working on robust and adaptive Deep Multimodal Fusion",
+  description: [
+    "<p style='font-size: larger;'>Hi there, I am Sébastien Grand!<br> "+
+    "<a href='https://www.imt-mines-albi.fr/'>I'm a 1st year PhD candidate</a> "+
+    "working on robust and adaptive Deep Multimodal Fusion.<br> "+
+    "Previously, I received a M.S in Computer Science and Mathematics from <a href='https://www.enseeiht.fr/fr/formation/formation-ingenieur/departement-sn/programme-sn/parcours-modia.html'>INP ENSEEIHT</a>. "+
+    "Then, I worked for a year at EPSI Radar at developing Computer Vision classification models for radar data.</p>"
+  ],
   email: "sebastien.grand@mines-albi.fr",
   imageUrl: photo,
   githubUsername: "SebastienGrand98",
   linkedinUsername: "sebastien-grand",
   twitterUsername: "_SGrand",
-  // blogUrl: "https://",
-  // cvUrl: "https://",
-  // institutionUrl: "https://www.stanford.edu",
-  // altName: "",
-  // secretDescription: "I like dogs.",
 };
