@@ -11,7 +11,7 @@ export interface Education {
 
 export const educationData: Education[] = [
   {
-    degree: "Ph.D. Candidate",
+    degree: "Ph.D. Student in Machine Learning and Computer Vision",
     institution: "IMT Mines Albi",
     year: "2024 - Present",
     // description: "<p style='font-size: larger;'>Working on robust and adaptive Deep Multimodal Fusion.</p>"
